@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">PennApps</string>
-    <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_name">Name</string>
+    <string name="title_home">Home</string>
     <string name="title_savings">Savings</string>
     <string name="title_history">History</string>
 
