@@ -9,77 +9,124 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
         android:text="@string/title_updates"
-        android:textSize="48dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:textColor="#000000"/>
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="360dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="96dp"
-        android:layout_marginBottom="96dp">
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="80dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#3333cc"
+            android:layout_height="300dp"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tv_01"
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/semitransparent_white"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="multiply"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="50dp"
+                android:textColor="#FFFFFF"
                 android:text="@string/title_home"></TextView>
 
             <TextView
                 android:id="@+id/tv_02"
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/semitransparent_white"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="multiply"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
                 android:text="@string/title_savings"
                 android:textSize="50dp"></TextView>
 
             <TextView
                 android:id="@+id/tv_03"
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/semitransparent_white"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="multiply"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
 
             <TextView
                 android:id="@+id/tv_04"
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/semitransparent_white"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="multiply"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
 
             <TextView
                 android:id="@+id/tv_05"
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/semitransparent_white"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="multiply"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="50dp"
+                android:textColor="#FFFFFF"
                 android:text="@string/title_home"></TextView>
 
             <TextView
                 android:id="@+id/tv_06"
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/semitransparent_white"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="multiply"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
 
             <TextView
                 android:id="@+id/tv_07"
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/semitransparent_white"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="multiply"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
 
             <TextView
                 android:id="@+id/tv_08"
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/semitransparent_white"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="multiply"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
 
