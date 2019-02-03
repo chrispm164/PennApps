@@ -1,59 +1,54 @@
 package com.example.pennapps;
 
+
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Button;
+
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView mTextMessage;
-
-
-    private boolean loadFragment(Fragment f) {
-        if (f != null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, f).commit();
-            return true;
-        }
-        return false;
-    }
-
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener() {
-
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            Fragment fragment = null;
-            switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    fragment = new HomeFragment();
-                    break;
-                case R.id.navigation_dashboard:
-                    fragment = new SavingsFragment();
-                    break;
-                case R.id.navigation_notifications:
-                    fragment = new HistoryFragment();
-                    break;
-            }
-            return loadFragment(fragment);
-        }
-    };
+    private EditText name;
+    private EditText password;
+    private TextView info;
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        name = (EditText) findViewById(R.id.login);
+        password = (EditText) findViewById(R.id.password);
+        button = (Button) findViewById(R.id.button);
 
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                validate(name.getText().toString(),password.getText().toString());
+            }
+        });
 
-        loadFragment(new HomeFragment());
+
     }
+
+    private void validate(String username, String password) {
+        if((username.equals("admin")) && password.equals("12345")) {
+            Intent intent = new Intent(this, Dashboard.class);
+            startActivity(intent);
+        }
+    }
+
 
 }
