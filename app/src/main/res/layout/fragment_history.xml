@@ -7,14 +7,85 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_updates"
+        android:textSize="48dp"
+        android:textColor="#000000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="646dp"
-        android:text="Updates"
-        android:textSize="48dp" />
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="96dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_01"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="48dp"
+                android:text="@string/title_home"></TextView>
+
+            <TextView
+                android:id="@+id/tv_02"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="48dp"
+                android:text="@string/title_savings"></TextView>
+
+            <TextView
+                android:id="@+id/tv_03"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="48dp"
+                android:text="@string/title_home"></TextView>
+
+            <TextView
+                android:id="@+id/tv_04"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="48dp"
+                android:text="@string/title_home"></TextView>
+
+            <TextView
+                android:id="@+id/tv_05"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="48dp"
+                android:text="@string/title_home"></TextView>
+
+            <TextView
+                android:id="@+id/tv_06"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="48dp"
+                android:text="@string/title_home"></TextView>
+
+            <TextView
+                android:id="@+id/tv_07"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="48dp"
+                android:text="@string/title_home"></TextView>
+
+            <TextView
+                android:id="@+id/tv_08"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="48dp"
+                android:text="@string/title_home"></TextView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
