@@ -43,6 +43,7 @@
                 android:layout_height="match_parent"
                 android:textSize="50dp"
                 android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-smallcaps"
                 android:text="@string/title_home"></TextView>
 
             <TextView
@@ -52,7 +53,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#FFFFFF"
-                android:text="@string/title_savings"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/title_home"
                 android:textSize="50dp"></TextView>
 
             <TextView
@@ -61,6 +63,7 @@
                 android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
@@ -71,6 +74,7 @@
                 android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
@@ -81,6 +85,7 @@
                 android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textSize="50dp"
                 android:textColor="#FFFFFF"
                 android:text="@string/title_home"></TextView>
@@ -91,6 +96,7 @@
                 android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
@@ -101,6 +107,7 @@
                 android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
@@ -111,6 +118,7 @@
                 android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textColor="#FFFFFF"
                 android:textSize="50dp"
                 android:text="@string/title_home"></TextView>
