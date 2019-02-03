@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#3333cc"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
@@ -16,30 +17,28 @@
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:textColor="#000000"/>
+        android:textColor="#FFFFFF"/>
 
     <ScrollView
-        android:layout_width="360dp"
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:layout_height="100dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="87dp"
-        android:layout_marginBottom="80dp">
+        android:layout_marginBottom="65dp">
 
         <LinearLayout
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_gravity="center_horizontal"
             android:background="#3333cc"
-            android:layout_height="300dp"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tv_01"
                 android:layout_marginBottom="15dp"
-                android:background="@color/semitransparent_white"
-                android:backgroundTint="@color/colorAccent"
-                android:backgroundTintMode="multiply"
+                android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="50dp"
@@ -49,9 +48,7 @@
             <TextView
                 android:id="@+id/tv_02"
                 android:layout_marginBottom="15dp"
-                android:background="@color/semitransparent_white"
-                android:backgroundTint="@color/colorAccent"
-                android:backgroundTintMode="multiply"
+                android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#FFFFFF"
@@ -61,9 +58,7 @@
             <TextView
                 android:id="@+id/tv_03"
                 android:layout_marginBottom="15dp"
-                android:background="@color/semitransparent_white"
-                android:backgroundTint="@color/colorAccent"
-                android:backgroundTintMode="multiply"
+                android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
@@ -73,9 +68,7 @@
             <TextView
                 android:id="@+id/tv_04"
                 android:layout_marginBottom="15dp"
-                android:background="@color/semitransparent_white"
-                android:backgroundTint="@color/colorAccent"
-                android:backgroundTintMode="multiply"
+                android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
@@ -85,9 +78,7 @@
             <TextView
                 android:id="@+id/tv_05"
                 android:layout_marginBottom="15dp"
-                android:background="@color/semitransparent_white"
-                android:backgroundTint="@color/colorAccent"
-                android:backgroundTintMode="multiply"
+                android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="50dp"
@@ -97,9 +88,7 @@
             <TextView
                 android:id="@+id/tv_06"
                 android:layout_marginBottom="15dp"
-                android:background="@color/semitransparent_white"
-                android:backgroundTint="@color/colorAccent"
-                android:backgroundTintMode="multiply"
+                android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
@@ -109,9 +98,7 @@
             <TextView
                 android:id="@+id/tv_07"
                 android:layout_marginBottom="15dp"
-                android:background="@color/semitransparent_white"
-                android:backgroundTint="@color/colorAccent"
-                android:backgroundTintMode="multiply"
+                android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
@@ -121,9 +108,7 @@
             <TextView
                 android:id="@+id/tv_08"
                 android:layout_marginBottom="15dp"
-                android:background="@color/semitransparent_white"
-                android:backgroundTint="@color/colorAccent"
-                android:backgroundTintMode="multiply"
+                android:background="@drawable/item_rnd"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
